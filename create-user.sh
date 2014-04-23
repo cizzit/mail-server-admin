@@ -1,10 +1,13 @@
 #!/bin/sh
+# Author: Stuart Rowe <stuart@localghost.com.au>
+# Date: 23/04/2014
+
 # Assist in auto creating virtual users in postfix and dovecot
 # TODO: check for existing users in virtual-mailbox-users and virtual
 
 # Step 1. Set variables
 
-domainname=localghost.com.au
+domainname=DOMAINNAMEGOESHERE
 postfixpath=/etc/postfix
 dovecotpath=/etc/dovecot
 
